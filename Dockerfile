@@ -8,7 +8,7 @@ RUN ( \
             git subversion libsdl-dev \ 
             diffstat texinfo gawk chrpath wget cpio \
             vim icecc bash ninja-build screen sshpass \
-            bc unzip libxml2-utils && \
+            bc unzip libxml2-utils openjdk-7-jdk && \
         apt-get clean && \
         rm -rf /var/lib/apt/lists/* && \
         ln -sf /bin/bash /bin/sh \
