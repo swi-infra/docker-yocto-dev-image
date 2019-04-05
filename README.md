@@ -11,12 +11,12 @@ docker run \
            --volume /etc/passwd:/etc/passwd \
            --volume /etc/group:/etc/group \
            --workdir ${PWD} \
-           corfr/yocto-dev
+           quay.io/swi-infra/yocto-dev
 ```
 
 The image provide essential tools to build packages with Yocto, as described from:
-http://www.yoctoproject.org/docs/2.0/ref-manual/ref-manual.html#detailed-supported-distros
+http://www.yoctoproject.org/docs/2.5/ref-manual/ref-manual.html#detailed-supported-distros
 
-The base image is Ubuntu 14.04 LTS.
+The base image is Ubuntu 16.04 LTS.
 
-Packages are from the Yocto documentation + essential packages for http://legato.io .
+Packages are from the Yocto documentation + essential packages for https://legato.io .
