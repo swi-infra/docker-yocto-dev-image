@@ -9,7 +9,7 @@ RUN ( \
             diffstat texinfo gawk chrpath wget cpio \
             vim icecc bash ninja-build screen sshpass \
             bc unzip libxml2-utils autoconf openjdk-8-jdk lbzip2 \
-            python3 python3-git python3-jinja2 rsync && \
+            python3 python3-git python3-jinja2 rsync jq && \
         apt-get clean && \
         rm -rf /var/lib/apt/lists/* && \
         ln -sf /bin/bash /bin/sh \
