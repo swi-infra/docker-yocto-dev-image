@@ -12,7 +12,7 @@ RUN ( \
             diffstat texinfo gawk chrpath wget cpio \
             vim icecc bash ninja-build screen sshpass \
             bc unzip libxml2-utils autoconf openjdk-7-jdk lbzip2 \
-            rsync && \
+            rsync jq && \
         apt-get clean && \
         rm -rf /var/lib/apt/lists/* && \
         ln -sf /bin/bash /bin/sh \
