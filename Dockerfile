@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 
 ## Mirror
-RUN sed -i "s^http://archive.ubuntu.com/ubuntu^http://mirror.it.ubc.ca/ubuntu^g" /etc/apt/sources.list
+# RUN sed -i "s^http://archive.ubuntu.com/ubuntu^http://mirror.it.ubc.ca/ubuntu^g" /etc/apt/sources.list
 
 RUN ( \
         apt-get update && \
